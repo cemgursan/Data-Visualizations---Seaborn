@@ -1,35 +1,47 @@
-# Data-Visualizations---Seaborn
+# Seaborn Visualizations Repository
 
-Simple collection of Seaborn fucntions
+This repository provides a collection of data visualization examples using Seaborn along with related Python libraries. The project is organized into three main views, each demonstrating different techniques and datasets.
 
-## Getting Started
+## Overview
 
-Written in Jupyter Notebook. Notebook files are uploaded.
+The repository includes:
 
-### Dependencies
+1. **Flights Data Visualization:**  
+   - Uses the built-in "flights" dataset from Seaborn.
+   - Demonstrates data pivoting to create a matrix for heatmaps.
+   - Showcases various heatmap customizations, including annotations, centering, and clustermaps.
+   - Combines bar plots and heatmaps in subplots to compare yearly flight data.
 
-Python, Numpy, Pandas, Seaborn, Matplotlib, Jupyter Notebook are necessary
+2. **Tips Data Regression and Distribution Analysis:**  
+   - Utilizes the "tips" dataset to explore relationships between total bill, tip, and other variables.
+   - Implements linear regression plots (`lmplot`) with customization options such as scatter markers, regression lines, order, and lowess smoothing.
+   - Creates additional plots like violin plots to visualize the distribution of tips as a percentage of the total bill.
 
-### Installing & Executing program
+3. **Random Data Analysis:**  
+   - Generates random datasets to illustrate histogram plotting with different normalization options.
+   - Displays joint plots (both scatter and hexbin) to analyze bivariate distributions.
+   - Provides a hands-on example of using Seaborn alongside Matplotlib for exploratory data analysis.
 
-* Just upload the ipynb to your jupyter notebook folder 
-* Different types of functions are clustered in different Cells. 
-* Just Run the cells that you are interested in.
+## Features
 
-## Help
+- **Heatmaps and Clustermaps:** Visualize matrix data with annotations, color mapping, and clustering.
+- **Regression Analysis:** Use Seaborn's `lmplot` for exploring linear relationships and applying lowess smoothing.
+- **Distribution Analysis:** Create histograms and joint plots to understand data distributions.
+- **Customizations:** Examples of customizing plots with color palettes, marker styles, and subplot arrangements.
 
-Check comments for what the functions do
+## Requirements
 
-## Authors
+The project requires Python 3 and the following packages:
 
-Cem Gursan
+- numpy
+- pandas
+- scipy
+- matplotlib
+- seaborn
 
+## Installation
 
-## Version History
+Install the required packages using the provided `requirements.txt` file:
 
-* 0.1
-    * Initial Release
-
-## License
-
-This project is free to use for all Python Lovers
+```bash
+pip install -r requirements.txt
